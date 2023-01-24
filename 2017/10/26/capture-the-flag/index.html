@@ -1,0 +1,53 @@
+<h2 id="the-idea">The idea</h2>
+
+<p>Last night, Ruby in Hollywood held its first ever Capture the Flag event. <a href="http://www.jakewilkins.com/" title="Jake Wilkins">Jake Wilkins</a> had the idea for us to attack <a href="https://www.owasp.org/index.php/OWASP_Juice_Shop_Project" title="OWASP">OWASP Juice Shop</a>, which is a node.js app full of security vulnerabilities. I did some research about CTFs and thought it sounded like a great idea. I sent around this video from UCSB’s white hat team to all <a href="rubyinhollywood.com" title="Ruby in Hollywood">Ruby in Hollywood</a> members so they could prepare.</p>
+
+<p>{{&lt; youtube bxt-JidP3bU &gt;}}</p>
+
+<h2 id="the-setup">The setup</h2>
+
+<h3 id="sponsor">Sponsor</h3>
+
+<p><a href="https://colleenmcguckin.com/">Colleen’s</a> work <a href="https://ethn.io/">Ethnio</a> sponsored pizza and let us use their space to hack. Thanks to Colleen and Ethnio!</p>
+
+<h3 id="scoreboard">Scoreboard</h3>
+
+<p>I launched an app called <a href="https://github.com/CTFd/CTFd" title="CTFd">CTFd</a>, which is basically a scoreboard and list of challenges for people to complete.I served up the CTFd app on the local network, so that everybody participating could log their completions.</p>
+
+<p>Normally there are two types of CTF, either you do Jeopardy style, or you can do attack/defense. For this one, we did Jeopardy style. Each challenge was graded by difficulty, and as the difficulty increased, so did the amount of points you would get if you won.</p>
+
+<p>Here’s the jeopardy challenge board:
+<img src="/jeopardy.png" alt="" title="Challenges Board" /></p>
+
+<h3 id="experience-with-ctfs">Experience with CTFs</h3>
+
+<p>Most of us had never done a CTF before, and so were unsure how to get started. We had a bunch of interest from people who looked like they may have been more experienced CTF hackers. That was really cool to see, that there is definitely interest in CTFs here in our backyard. But for the rest of us, it was a great way to dive in.</p>
+
+<h3 id="juice-shop">Juice Shop</h3>
+<p><img src="/juiceshop.png" alt="" title="JuiceShop" /></p>
+
+<p>Juice Shop is an app specifically created to be vulnerable. There are about 50 flags you can get out of the app by completing challenges. When you complete a challenge, it gives you a code, or “flag”. You can then enter it in the scoreboard app that I set up to get your points. The challenges are in categories from cross-site scripting, to account hacks, to SQL injection. It doesn’t matter what order you do them in, but usually people start with the easier ones.</p>
+
+<h2 id="ready-set-hack">Ready, set, hack!</h2>
+
+<p>Everybody got started by cloning Juice Shop locally in CTF mode (<code class="highlighter-rouge">NODE_ENV=ctf npm start</code>). Then each person had an instance of Juice Shop running on their machine and started hacking.</p>
+
+<p>People paired up in teams for the most part, and talked out different ways they could attack the app. Juice Shop is one of the most popular apps for CTFs, so we were on the honor system not to google “juice shop vulnerabilities”, because that would have given us all the answers.</p>
+
+<p>The first couple challenges were out of the way pretty soon, and people got to work on some XSS, SQL injection, and rainbow tables.</p>
+
+<p>We ended up staying way later than usual, until about 10:30, when everyone’s batteries started to die. In the end, here were the final rankings:</p>
+
+<ol>
+  <li>Shannon and Colleen (and Jake?)</li>
+  <li>Roy and Vicken</li>
+  <li>Ernesto and Steph</li>
+  <li>Yanny also got a bunch of flags but couldn’t access the scoreboard to log his points.</li>
+</ol>
+
+<p><img src="/scoreboard.png" alt="" title="CTFd Scoreboard" /></p>
+
+<h2 id="great-work-to-everybody-who-participated-well-plan-another-ctf-soon">Great work to everybody who participated! We’ll plan another CTF soon</h2>
+
+<p><img src="/juiceshopflag.png" alt="" title="JuiceShop" /></p>
+
