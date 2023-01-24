@@ -10,5 +10,3 @@ bin/bridgetown deploy
 # load the site up within a Ruby console (IRB)
 bin/bridgetown console
 ```
-
-> Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
