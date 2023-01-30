@@ -32,3 +32,8 @@ base_path: "/my-site" # the subpath of your site, e.g. /blog. If you set this op
 # timezone: America/Los_Angeles
 # pagination:
 #   enabled: true
+collections:
+  projects:
+    output: true
+  presentations:
+    output: true
