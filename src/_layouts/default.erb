@@ -6,7 +6,7 @@
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %>flex h-full flex-col bg-zinc-50 dark:bg-black">
     <div class="top-0 z-10 h-16 pt-6" style="position:var(--header-position)">
       <div class="sm:px-8 top-[var(--header-top,theme(spacing.6))] w-full" style="position:var(--header-inner-position)">
-        <div class="mx-auto max-w-7xl lg:px-8">
+        <div class="mx-auto max-w-7xl lg:px-8 dark:text-slate-400">
           <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
           <main>
             <%= yield %>
