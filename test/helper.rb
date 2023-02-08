@@ -1,15 +1,17 @@
-require "nokogiri"
-require "minitest/autorun"
-require "minitest/reporters"
-require "minitest/profile"
-require "shoulda"
-require "rails-dom-testing"
+# frozen_string_literal: true
+
+require 'nokogiri'
+require 'minitest/autorun'
+require 'minitest/reporters'
+require 'minitest/profile'
+require 'shoulda'
+require 'rails-dom-testing'
 
 # Report with color.
 Minitest::Reporters.use! [
   Minitest::Reporters::DefaultReporter.new(
     color: true
-  ),
+  )
 ]
 
 Minitest::Test.class_eval do
@@ -28,9 +30,8 @@ Minitest::Test.class_eval do
   end
 
   def document_root_element
-    if @document_root.nil?
-      raise "Call `document_root' with a Nokogiri document before testing your assertions"
-    end
+    raise "Call `document_root' with a Nokogiri document before testing your assertions" if @document_root.nil?
+
     @document_root
   end
 end
