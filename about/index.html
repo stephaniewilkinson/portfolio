@@ -58,7 +58,10 @@ setTimeout(() => {
               <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/my-site/about">About</a>
             </li>
             <li>
-              <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/my-site/posts">Articles</a>
+              <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/my-site/articles">Articles</a>
+            </li>
+            <li>
+              <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/my-site/posts">Blog</a>
             </li>
             <li>
               <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/my-site/projects">Projects</a>
@@ -75,10 +78,13 @@ setTimeout(() => {
 
           <main>
             <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 mx-auto max-w-2xl lg:max-w-5xl">
-  <div class="max-w-2xl lg:order-first lg:row-span-2">
-    <h1 class="mt-36 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+  <div class="">
+    <h1 class="mt-36 text-6xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-6xl">
       About
     </h1>
+    <p class="text-zinc-800 tracking-tight dark:text-zinc-100 sm:text-3xl">
+      
+    </p>
     <p class="dark:text-slate-400 mt-6 text-base text-zinc-600 dark:text-zinc-400">
       <p>This is the basic Bridgetown site template. You can find out more info about customizing your Bridgetown site, as well as basic Bridgetown usage documentation at <a href="https://bridgetownrb.com/">bridgetownrb.com</a></p>
 
@@ -124,6 +130,22 @@ setTimeout(() => {
     </a>
   </li>
 </ul>
+<br>
+<div>
+  <label for="email" class="block text-sm font-medium text-gray-700">Subscribe to updates</label>
+  <div class="relative mt-1 rounded-md shadow-sm">
+    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+      <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
+        <path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
+      </svg>
+    </div>
+    <input type="email" name="email" id="email" class="block w-full rounded-md border-gray-300 pl-10 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="you@example.com">
+  </div>
+</div>
+
+
+<form action="https://tinyletter.com/stephaniew" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/stephaniew', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Subscribe to updates</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
 
   </div>
 </div>
