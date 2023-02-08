@@ -33,7 +33,7 @@ title: Writing on software and technology trends
         </svg>
       </div>
     </div>
-    <time class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500" datetime="2022-09-05">
+    <time class="hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500" datetime="2022-09-05">
       <%= post.data.date %>
     </time>
   </article>
