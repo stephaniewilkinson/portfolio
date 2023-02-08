@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 mx-auto max-w-2xl lg:max-w-5xl">
+<div class="mt-24 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 mx-auto max-w-2xl lg:max-w-5xl">
   <div class="">
-    <h1 class="mt-36 text-6xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-6xl">
+    <h1 class=" text-6xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-6xl">
       <%= resource.data.title %>
     </h1>
     <p class="text-zinc-800 tracking-tight dark:text-zinc-100 sm:text-3xl">
@@ -14,8 +14,8 @@ layout: default
     </p>
   </div>
   <div class="lg:pl-20">
-    <div class="mt-36 mb-12 max-w-xs px-2.5 lg:max-w-none">
-      <img alt="" sizes="(min-width: 1024px) 32rem, 20rem" src="<%= relative_url '/images/romy_and_steph.jpg' %>" decoding="async" data-nimg="1" class="aspect-square rotate-3 rounded-3xl bg-zinc-100 object-cover dark:bg-zinc-800" loading="lazy" style="color: transparent;" width="800" height="800">
+    <div class="mb-12 max-w-2xl lg:visible px-2.5 lg:max-w-none">
+      <img alt="" sizes="(min-width: 1024px) 32rem, 20rem" src="<%= relative_url '/images/romy_and_steph.jpg' %>" decoding="async" data-nimg="1" class="aspect-square rotate-3 rounded-3xl bg-zinc-100 object-cover dark:bg-zinc-800" loading="lazy" style="color: transparent;">
     </div>
     <%= render "social_media" %>
   </div>
