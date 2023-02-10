@@ -35,5 +35,7 @@ base_path: "/my-site" # the subpath of your site, e.g. /blog. If you set this op
 collections:
   projects:
     output: true
+  communities:
+    output: true
   presentations:
     output: true

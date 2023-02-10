@@ -6,4 +6,16 @@ title: Stephanie Wilkinson
 subtitle: Engineering leadership
 ---
 
-Hi! I'm Stephanie Wilkinson. I live in Los Angeles and have built software for schools since 2009. My passion is using code to solve problems for people, and I love learning new tools and increasing impact.
+Stephanie Wilkinson lives in Los Angeles and specializes in engineering leadership in the education space. Her passion is using code to solve problems for people, and she loves learning new tools and increasing impact.
+
+&nbsp;
+
+Beginning in 2009, Stephanie began writing code for schools. She honed her programming skills over the years, specializing in Ruby in the early years. She built out an engineering team in 2014 to expand her impact building critical software for schools. With that team, she sold the app they built to multiple customers.
+
+&nbsp;
+
+These days, you can find Stephanie directing the engineering department at the National Association of Independent Schools. If she's not busy there, you'll find her building duplo trains with her daughter Andromeda.
+
+&nbsp;
+
+Read more of [her writing](https://stephanieawilkinson.com/my-site/posts), and explore [her projects](https://stephanieawilkinson.com/my-site/projects) or [presentations](https://stephanieawilkinson.com/my-site/presentations).
