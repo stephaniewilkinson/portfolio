@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Your First Post on Bridgetown | Portfolio, posts and projects</title>
+<title>Iterating over lists in Bridgetown Frontmatter | Portfolio, posts and projects</title>
 
 <meta name="description" content="Stephanie Wilkinson leads engineering teams to create game-changing apps for schools." />
 
@@ -73,30 +73,43 @@ setTimeout(() => {
 </div>
 
           <main>
-            <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 mx-auto max-w-2xl lg:max-w-5xl">
+            <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 mx-auto max-w-xl lg:max-w-7xl">
   <div class="max-w-2xl lg:order-first lg:row-span-2">
     <h1 class="mt-36 mb-8 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-      Your First Post on Bridgetown
+      Iterating over lists in Bridgetown Frontmatter
     </h1>
     <span class="dark:text-slate-400 mt-6 text-base text-zinc-600">
-      <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">bridgetown serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+      <p>While building this site using Bridgetown, I bumped into an issue.</p>
 
-<p>Bridgetown requires blog post files to be named according to the following format:</p>
+<p> </p>
 
-<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.EXT</code></p>
+<p>I wanted to create lists in the frontmatter of each item in a collection. For my “projects” collection, I wanted a list of tags. And then in the HTML, I wanted to iterate over each tag and display it as a badge.</p>
 
-<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">EXT</code> is the file extension representing the format used in the file (for example, <code class="highlighter-rouge">md</code> for Markdown). After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p> </p>
 
-<p>Bridgetown also offers powerful support for code snippets:</p>
+<p>I tried a couple different ways to fix this but nothing was working, until I found a solution.</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
+<p> </p>
+
+<p>My frontmatter looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tags:
+- elixir
+- GIS
+- mapping
 </code></pre></div></div>
 
-<p>Check out the <a href="https://bridgetownrb.com/docs/">Bridgetown docs</a> for more info on how to get the most out of Bridgetown. File all bugs/feature requests at <a href="https://github.com/bridgetownrb/bridgetown">Bridgetown’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/bridgetownrb/bridgetown/discussions">Bridgetown Discussions on GitHub</a>.</p>
+<p> </p>
+
+<p>And in my view I have:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> for tag in project.data.tags
+   tag
+ end
+</code></pre></div></div>
+
+<p> </p>
+
+<p>It seems simple but I couldn’t find this in the docs anywhere so I wanted to share. Hope it helps!</p>
 
     </span>
   </div>
