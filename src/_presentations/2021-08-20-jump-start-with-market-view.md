@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: post
 title:  "Jump-Start the Season with the New NAIS Market View Trend Report"
 date:   2021-09-29
 blurb: "NAIS Webinar: Supercharge Your Recruitment with NAIS Market View"

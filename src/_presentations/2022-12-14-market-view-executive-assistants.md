@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: post
 title:  "Market View for Executive Assistants"
 date:   2022-12-14
 blurb: "NAIS Webinar Series for Executive Assistants and Support Staff: NAIS Data Tools: DASL and Market View"

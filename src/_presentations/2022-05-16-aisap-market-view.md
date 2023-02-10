@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: post
 title:  "Using Data to Guide Your Enrollment Strategy"
 date:   2022-05-16
 blurb: "This three-part online class will demonstrate the critical importance of data and how you can utilize it to drive strategy and exhibit leadership to your school and board."

@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: page
 title: Presentations & workshops
 ---
 
