@@ -3,7 +3,7 @@ layout: full_width
 title:  "Conrex"
 date:   2023-01-19
 category: Nonprofit
-image_url: 'images/conrex.png'
+image_url: './images/conrex.png'
 tags:
 - elixir
 - GIS

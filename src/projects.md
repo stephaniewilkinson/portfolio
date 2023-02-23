@@ -4,8 +4,8 @@ title: My projects
 ---
 
 <div class="">
-  <div class="mx-auto mt-12 grid max-w-xl gap-5 lg:max-w-none lg:grid-cols-2">
-    <% collections.projects.resources.each do |project| %>
+  <div class="mx-auto mt-12 grid max-w-xl gap-12 lg:max-w-none lg:grid-cols-2">
+    <% collections.projects.resources.sort_by { _1.data.date }.reverse_each do |project| %>
       <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" src="<%= project.data.image_url %>" alt="">

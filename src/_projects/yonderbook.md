@@ -3,11 +3,12 @@ layout: full_width
 title:  "Yonderbook"
 date:   2023-01-19
 category: Open source
-blurb: "alskdjflskdjfd;lskjf"
+blurb: Use Goodreads bookshelves to download books from your library 
+image_url: 'images/yonderbook.png'
 tags:
-- elixir
-- GIS
-- mapping
+- ruby
+- roda
+- open-source
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bridgetown serve`, which launches a web server and auto-regenerates your site when a file is updated.
