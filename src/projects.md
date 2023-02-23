@@ -8,7 +8,7 @@ title: My projects
     <% collections.projects.resources.sort_by { _1.data.date }.reverse_each do |project| %>
       <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
         <div class="flex-shrink-0">
-          <img class="h-80 w-full object-cover" src="<%= project.data.image_url %>" alt="">
+          <img class="h-80 w-full object-cover" src="<%= relative_url project.data.image_url %>" alt="">
         </div>
         <div class="flex flex-1 flex-col justify-between bg-white p-6">
           <div class="flex-1">
