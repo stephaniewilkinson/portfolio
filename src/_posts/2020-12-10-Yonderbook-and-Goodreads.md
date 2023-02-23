@@ -2,7 +2,7 @@
 layout: post
 title: "Goodreads shutters all APIs, breaking my open source app"
 date: 2020-12-10
-image_url: 'images/yonderbook.jpg'
+image_url: 'images/yonderbook.png'
 blurb: "On Dec 8, Amazon is no longer supporting Goodreads APIs. This means that my open source app breaks, no longer allowing folks to use their Goodreads data to check out books from the library."
 tags:
 - ruby
