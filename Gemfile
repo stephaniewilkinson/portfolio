@@ -33,6 +33,7 @@ gem 'bridgetown', '~> 1'
 # Puma is a Rack-compatible server used by Bridgetown
 # (you can optionally limit this to the "development" group)
 gem 'puma', '~> 6'
+gem 'rubocop'
 
 group :test, optional: true do
   gem 'minitest'
