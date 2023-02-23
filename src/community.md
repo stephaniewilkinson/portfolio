@@ -29,7 +29,7 @@ title: Community & volunteering
         <img src="<%= relative_url '/images/railsgirls.jpg' %>" alt="" class="h-full w-full object-cover">
       </div>
       <div class="relative lg:col-span-1">
-        <img class="w-16 w-auto" src="http://railsgirls.com/images/railsgirls-logo.png" alt="">
+        <img class="w-16 w-auto" src="<%= relative_url '/images/railsgirls-logo.png' %>" alt="">
         <blockquote class="mt-6 text-white">
           <p class="text-xl font-medium sm:text-2xl">
           I love volunteering for Railsgirls. Each year, it's fascinating to help new women and girls getting started on their programming journeys.
