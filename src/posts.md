@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Writing on software and technology trends
+title: Writing
 ---
 
 <% collections.posts.resources.each do |post| %>
