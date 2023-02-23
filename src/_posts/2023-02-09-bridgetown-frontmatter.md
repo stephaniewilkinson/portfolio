@@ -3,12 +3,15 @@ layout: post
 title:  "Iterating over lists in Bridgetown Frontmatter"
 date:   2023-02-09
 categories: updates
-blurb: "A solution for using ERB to display lists of frontmatter items"
+blurb: "A solution for using ERB to display lists of frontmatter items."
 ---
 
 While building this site using Bridgetown, I bumped into an issue.
 
+
 &nbsp;
+
+
 
 I wanted to create lists in the frontmatter of each item in a collection. For my "projects" collection, I wanted a list of tags. And then in the HTML, I wanted to iterate over each tag and display it as a badge.
 

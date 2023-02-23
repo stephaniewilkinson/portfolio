@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Capture the Flag at Ruby in Hollywood"
-date: 2017-10-26T10:23:50-07:00
-featured_image: "/juiceshop.png"
+date: 2017-10-26
+image_url: https://i1.sndcdn.com/artworks-82aod7RIzTbaBDPm-GMW54w-t500x500.jpg
+blurb: Running a capture the flag event at my programming group.
 tags:
 - rubyinhollywood
 - appsec
@@ -16,8 +18,20 @@ tags:
 
 Last night, Ruby in Hollywood held its first ever Capture the Flag event. [Jake Wilkins][cb743955] had the idea for us to attack [OWASP Juice Shop][aa118dbb], which is a node.js app full of security vulnerabilities. I did some research about CTFs and thought it sounded like a great idea. I sent around this video from UCSB's white hat team to all [Ruby in Hollywood][1d9160cf] members so they could prepare.
 
-{{< youtube bxt-JidP3bU >}}
 
+&nbsp;
+
+
+
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/bxt-JidP3bU"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
 ## The setup
 
 ### Sponsor
@@ -29,7 +43,15 @@ Last night, Ruby in Hollywood held its first ever Capture the Flag event. [Jake 
 
 I launched an app called [CTFd][bbe08ff3], which is basically a scoreboard and list of challenges for people to complete.I served up the CTFd app on the local network, so that everybody participating could log their completions.
 
+&nbsp;
+
+
+
 Normally there are two types of CTF, either you do Jeopardy style, or you can do attack/defense. For this one, we did Jeopardy style. Each challenge was graded by difficulty, and as the difficulty increased, so did the amount of points you would get if you won.
+
+&nbsp;
+
+
 
 Here's the jeopardy challenge board:
 ![](/jeopardy.png "Challenges Board")
@@ -49,26 +71,36 @@ Juice Shop is an app specifically created to be vulnerable. There are about 50 f
 
 Everybody got started by cloning Juice Shop locally in CTF mode (`NODE_ENV=ctf npm start`). Then each person had an instance of Juice Shop running on their machine and started hacking.
 
+&nbsp;
+
+
+
 People paired up in teams for the most part, and talked out different ways they could attack the app. Juice Shop is one of the most popular apps for CTFs, so we were on the honor system not to google "juice shop vulnerabilities", because that would have given us all the answers.
+
+&nbsp;
+
+
 
 
 The first couple challenges were out of the way pretty soon, and people got to work on some XSS, SQL injection, and rainbow tables.
 
+&nbsp;
+
+
+
 We ended up staying way later than usual, until about 10:30, when everyone's batteries started to die. In the end, here were the final rankings:
+
+&nbsp;
+
+
 
 1. Shannon and Colleen (and Jake?)
 2. Roy and Vicken
 3. Ernesto and Steph
 4. Yanny also got a bunch of flags but couldn't access the scoreboard to log his points.
 
+&nbsp;
 
 ![](/scoreboard.png "CTFd Scoreboard")
 
-## Great work to everybody who participated! We'll plan another CTF soon
-
-![](/juiceshopflag.png "JuiceShop")
-
-  [cb743955]: http://www.jakewilkins.com/ "Jake Wilkins"
-  [bbe08ff3]: https://github.com/CTFd/CTFd "CTFd"
-  [aa118dbb]: https://www.owasp.org/index.php/OWASP_Juice_Shop_Project "OWASP"
-  [1d9160cf]: rubyinhollywood.com "Ruby in Hollywood"
+## Great work to everybody who participated! 
