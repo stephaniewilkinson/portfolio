@@ -3,7 +3,7 @@ layout: post
 title:  "Supercharge Your Recruitment with NAIS Market View"
 date:   2021-09-29
 blurb: "NAIS Webinar: Supercharge Your Recruitment with NAIS Market View"
-image_url: http://stephanieawilkinson.com/my-site/images/2021-09-29_webinar_thumbnail.png
+image_url: ./images/2021-09-29_webinar_thumbnail.png
 event_link: https://www.nais.org/articles/pages/member/webinars/2021-2022/supercharge-your-recruitment-with-nais-market-view/
 ---
 Planning recruitment events? Want to strategize where you should target your efforts?
