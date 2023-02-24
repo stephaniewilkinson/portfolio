@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Vanderbilt University"
-date:   2017-07-29
+date:   2019-07-02
 blurb: "Leveraging Market View for Independent School Admissions"
 image_url: ./images/vanderbilt.jpeg
 
