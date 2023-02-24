@@ -14,8 +14,12 @@ Beginning in 2009, Stephanie began writing code for schools at a small arts char
 
 &nbsp;
 
-These days, you can find Stephanie directing the engineering department at the National Association of Independent Schools. Otherwise, you'll find her building duplo trains with her daughter Andromeda.
+These days, you can find Stephanie directing the engineering department at the National Association of Independent Schools. Her teams build apps for member schools, and build the platforms and tools used by the NAIS staff. The stack includes Elixir/Phoenix, Ember.js, and Ruby/Roda.
 
 &nbsp;
 
-Read more of [her writing](https://stephanieawilkinson.com/my-site/posts), and explore [her projects](https://stephanieawilkinson.com/my-site/projects) or [presentations](https://stephanieawilkinson.com/my-site/presentations).
+Otherwise, you'll find her building Duplo trains with her daughter Andromeda, hiking in the Santa Monica mountains, or working on open source projects.
+
+&nbsp;
+
+Read more of __[her writing](https://stephanieawilkinson.com/my-site/posts)__, and explore __[her projects](https://stephanieawilkinson.com/my-site/projects)__ or __[presentations](https://stephanieawilkinson.com/my-site/presentations)__.
