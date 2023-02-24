@@ -1,9 +1,9 @@
 ---
 layout: full_width
-title: Community & volunteering
+title: Community & volunteer work
 ---
  
-<div class="relative rounded-xl bg-indigo-500 py-24 shadow-2xl lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-16">
+<div class="mt-12 relative rounded-xl bg-indigo-500 py-24 shadow-2xl lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-16">
   <div class="absolute inset-0 opacity-50 mix-blend-multiply saturate-0 filter">
     <img src="<%= relative_url '/images/rubyinhollywoodgroup.jpg' %>" alt="" class="h-full w-full object-cover">
   </div>

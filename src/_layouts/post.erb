@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 mx-auto max-w-xl lg:max-w-7xl">
-  <div class="max-w-2xl lg:order-first lg:row-span-2">
-    <h1 class="my-8 text-5xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
+<div class="flow-root grid grid-cols-1 gap-y-16 lg:grid-cols-2 md:mx-auto max-w-xl lg:max-w-7xl">
+  <div class="md:my-8 p-4 max-w-2xl lg:order-first lg:row-span-2">
+    <h1 class="text-5xl mb-8 md:mt-8 font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
       <%= resource.data.title %>
     </h1>
-    <span class="dark:text-slate-400 mt-16 text-zinc-600">
+    <span class="dark:text-slate-400 text-zinc-600">
       <%= yield %>
     </span>
   </div>
   <div class="lg:pl-20">
-    <div class="lg:mt-16 mb-12 max-w-xs px-2.5 lg:max-w-none">
+    <div class="lg:mt-16 max-w-xs px-4 lg:max-w-none">
       <img alt="" sizes="(min-width: 1024px) 32rem, 20rem" src="<%= if resource.data.image_url then relative_url resource.data.image_url else relative_url 'images/headshot.jpg' end %>" decoding="async" data-nimg="1" class="aspect-square rounded-3xl bg-zinc-100 object-cover dark:bg-zinc-800" loading="lazy" style="color: transparent;" width="800" height="800">
     </div>
-    <%= render "social_media" %>
+    <div class="mt-16">
+      <%= render "social_media" %>
+    </div>
   </div>
 </div>
