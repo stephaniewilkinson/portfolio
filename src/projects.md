@@ -1,6 +1,6 @@
 ---
 layout: full_width
-title: My apps
+title: Projects
 ---
 
 <div class="">

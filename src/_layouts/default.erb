@@ -3,7 +3,7 @@
   <head>
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
-  <body class="<%= resource.data.layout %> <%= resource.data.page_class %> flex h-full flex-col bg-zinc-50 dark:bg-black">
+  <body class="bg-gradient-to-r from-[#f7e9e2] to-[#dadef1] dark:to-zinc-800 dark:from-slate-800 <%= resource.data.layout %> <%= resource.data.page_class %> flex h-full flex-col">
     <div class="top-0 z-10 h-16 pt-6" style="position:var(--header-position)">
       <div class="md:px-8 top-[var(--header-top,theme(spacing.6))] w-full" style="position:var(--header-inner-position)">
         <div class="mx-auto max-w-7xl lg:px-8 dark:text-slate-400">
