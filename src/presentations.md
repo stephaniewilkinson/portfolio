@@ -6,7 +6,7 @@ title: Presentations & workshops
 <% collections.presentations.resources.sort_by { _1.data.date }.reverse_each do |presentation| %>
   <div class="md:columns-2 pb-12 gap-12">
     <a href="<%= presentation.relative_url %>">
-      <img class="w-full" src="<%= presentation.data.image_url %>"/>
+      <img class="w-full" src="<%= relative_url presentation.data.image_url %>"/>
       <span class="relative z-10">
         <time class="hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500" datetime="2022-09-05">
           <%= presentation.data.date %>
