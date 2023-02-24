@@ -14,7 +14,7 @@ title: Blog
           <time datetime="2020-03-16" class="text-gray-500"><%= post.data.date %></time>
         </div>
         <div class="group relative max-w-full">
-          <a href="<%= post.relative_url %>">
+          <a href="<%= relative_url post.relative_url %>">
             <h3 class="mt-3 text-3xl text-zinc-600 tracking-tight font-semibold leading-10 dark:text-gray-400">
               <span class="absolute inset-0"></span>
               <%= post.data.title %>

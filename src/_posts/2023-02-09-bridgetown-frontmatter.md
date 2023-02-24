@@ -2,7 +2,6 @@
 layout: post
 title:  "Iterating over lists in Bridgetown Frontmatter"
 date:   2023-02-09
-categories: updates
 blurb: "A solution for using ERB to display lists of frontmatter items."
 image_url: https://www.bridgetownrb.com/images/bridgetown-avatar.png
 ---

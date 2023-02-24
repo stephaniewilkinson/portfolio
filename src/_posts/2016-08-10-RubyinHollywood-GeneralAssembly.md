@@ -12,8 +12,6 @@ tags:
 - javascript
 ---
 
-
-
 Last night, [Ruby in Hollywood](https://twitter.com/rubyinhollywood) held a special event in conjunction with the [General Assembly](https://generalassemb.ly) Alumni Guild.
 
 &nbsp;
