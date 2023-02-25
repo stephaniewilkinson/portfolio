@@ -1,5 +1,5 @@
 ---
-layout: full_width
+layout: post
 title:  "Member Vote"
 date:   2019-01-19
 category: Nonprofit
@@ -11,3 +11,5 @@ tags:
 - roda
 - oauth
 ---
+
+An app for NAIS members to vote on issues of NAIS governance. This was my first app in production using Tailwind.css, which was lots of fun.
