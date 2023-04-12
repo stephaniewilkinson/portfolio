@@ -1,4 +1,4 @@
-Stephanie Wilkinson | Personal Site
+# Stephanie Wilkinson | Personal Site
 
 ```sh
 # running locally
