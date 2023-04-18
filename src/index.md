@@ -10,7 +10,7 @@ Stephanie Wilkinson lives in Los Angeles and specializes in engineering leadersh
 
 &nbsp;
 
-Beginning in 2009, Stephanie began writing code for schools at a small arts charter school in Washington DC for kids with IEPs. She honed her programming skills over the years, specializing in Ruby in the early years. She built out an engineering team in 2014 to expand her impact building critical software for schools. With that team, she sold the app they built to other accrediting organizations.
+In 2009, Stephanie began writing code for schools at a small arts charter school in Washington DC for kids with IEPs. She honed her programming skills over the years, specializing in Ruby in the early years. She built out an engineering team in 2014 to expand her impact building critical software for schools. With that team, she sold the app they built to other accrediting organizations.
 
 &nbsp;
 
