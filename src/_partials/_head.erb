@@ -11,12 +11,26 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <% resource_title = strip_html(strip_newlines(title)) %>
-<title><% if resource_title != "Index" %><%= resource_title %> | <%= metadata.title %><% else %><%= metadata.title %>: <%= metadata.tagline %><% end %></title>
-<meta property="og:title" content="Stephanie A. Wilkinson" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="<%= relative_url 'images/headshot.jpg' %>" />
 
+<!-- HTML Meta Tags -->
+<title><% if resource_title != "Index" %><%= resource_title %> | <%= metadata.title %><% else %><%= metadata.title %>: <%= metadata.tagline %><% end %></title>
 <meta name="description" content="<%= metadata.description %>" />
+
+<!-- OpenGraph Meta Tags -->
+<meta property="og:url" content="https://stephanieawilkinson.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stephanie Wilkinson | Portfolio, posts and projects">
+<meta property="og:description" content="Stephanie Wilkinson leads engineering teams to create game-changing apps for schools.">
+<meta property="og:image" content="https://stephanieawilkinson.com/images/headshot.jpg">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="stephanieawilkinson.com">
+<meta property="twitter:url" content="https://stephanieawilkinson.com">
+<meta name="twitter:title" content="Stephanie Wilkinson | Portfolio, posts and projects">
+<meta name="twitter:description" content="Stephanie Wilkinson leads engineering teams to create game-changing apps for schools.">
+<meta name="twitter:image" content="https://stephanieawilkinson.com/images/headshot.jpg">
+
 
 <link rel="stylesheet" href="<%= webpack_path :css %>" />
 <script src="<%= webpack_path :js %>" defer></script>
