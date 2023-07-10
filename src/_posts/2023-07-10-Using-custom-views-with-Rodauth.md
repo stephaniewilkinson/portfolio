@@ -54,3 +54,57 @@ My hunch is that I need to replace the value of the CSRF token with one that is 
 
 
 I couldn't find anything in the documentation about how to generate a csrf token. I saw info about switching to Rack's CSRF features, but not about how to generate a token. 
+
+&nbsp;
+
+
+
+My first try was replacing the token with csrf_token, but that didn't work.
+
+&nbsp;
+
+
+```
+<input type="hidden" name="_csrf" value="<%= csrf_token %>" />
+```
+
+&nbsp;
+
+
+
+```
+Roda::RodaPlugins::RouteCsrf::InvalidToken at /login
+decoded token is not valid for request method and path (Roda::RodaPlugins::RouteCsrf::InvalidToken)
+```
+
+&nbsp;
+
+My second try was replacing the entire input line with 
+<%= csrf_tag %> since it generates the html.
+
+&nbsp;
+
+
+But then I got the same error as the one I started with: 
+
+&nbsp;
+
+```
+Roda::RodaPlugins::RouteCsrf::InvalidToken at /login
+decoded token is not valid for request method and path (Roda::RodaPlugins::RouteCsrf::InvalidToken)
+```
+
+&nbsp;
+
+None of the other options looked helpful, after looking through the output of each one.
+
+![CSRF methods](/images/csrf_methods.png "CSRF methods")
+
+&nbsp;
+
+My third idea was to see if there was a Rodauth sample app somewhere, and I could copy the code to generate the token from there.
+
+&nbsp;
+
+
+[The rodauth-rails gem has an example app, but it didn't create any tokens on the page.](https://github.com/janko/rodauth-demo-rails/blob/master/app/views/rodauth/login.html.erb)
