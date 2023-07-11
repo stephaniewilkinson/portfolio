@@ -59,7 +59,9 @@ I couldn't find anything in the documentation about how to generate a csrf token
 
 
 
-My first try was replacing the token with `csrf_token`, but that didn't work.
+My first try was replacing the token with 
+    csrf_token
+but that didn't work.
 
 &nbsp;
 
@@ -79,7 +81,8 @@ decoded token is not valid for request method and path (Roda::RodaPlugins::Route
 &nbsp;
 
 My second try was replacing the entire input line with 
-`csrf_tag` since it generates the html.
+    csrf_tag
+since it generates the html.
 
 &nbsp;
 
@@ -88,10 +91,10 @@ But then I got the same error as the one I started with:
 
 &nbsp;
 
-```
-Roda::RodaPlugins::RouteCsrf::InvalidToken at /login
-decoded token is not valid for request method and path (Roda::RodaPlugins::RouteCsrf::InvalidToken)
-```
+
+    Roda::RodaPlugins::RouteCsrf::InvalidToken at /login
+    decoded token is not valid for request method and path (Roda::RodaPlugins::RouteCsrf::InvalidToken)
+
 
 &nbsp;
 
@@ -107,3 +110,11 @@ My third idea was to see if there was a Rodauth sample app somewhere, and I coul
 
 
 [The rodauth-rails gem has an example app, but it didn't create any tokens on the page.](https://github.com/janko/rodauth-demo-rails/blob/master/app/views/rodauth/login.html.erb)
+
+&nbsp;
+
+Solution
+{: .text-2xl }
+
+In the end, the solution was to use 
+    `rodauth.csrf_token`
