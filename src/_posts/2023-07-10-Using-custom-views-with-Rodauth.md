@@ -59,14 +59,13 @@ I couldn't find anything in the documentation about how to generate a csrf token
 
 
 
-My first try was replacing the token with csrf_token, but that didn't work.
+My first try was replacing the token with `csrf_token`, but that didn't work.
 
 &nbsp;
 
 
-```
-<input type="hidden" name="_csrf" value="<%= csrf_token %>" />
-```
+
+
 
 &nbsp;
 
@@ -80,7 +79,7 @@ decoded token is not valid for request method and path (Roda::RodaPlugins::Route
 &nbsp;
 
 My second try was replacing the entire input line with 
-<%= csrf_tag %> since it generates the html.
+`csrf_tag` since it generates the html.
 
 &nbsp;
 
