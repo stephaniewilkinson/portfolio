@@ -122,6 +122,8 @@ My third idea was to see if there was a Rodauth sample app somewhere, and I coul
 Solution
 {: .text-3xl }
 
+&nbsp;
+
 In the end, the solution was to use 
     `rodauth.csrf_token`
 .
