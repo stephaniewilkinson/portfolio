@@ -20,6 +20,12 @@ I ran the `rodauth.login_view` method to grab the HTML for the default view. I c
 
 &nbsp;
 
+
+Problem
+{: .text-3xl }
+
+&nbsp;
+
 I tried logging in using my new page, but got an error.
 
 &nbsp;
@@ -114,7 +120,8 @@ My third idea was to see if there was a Rodauth sample app somewhere, and I coul
 &nbsp;
 
 Solution
-{: .text-2xl }
+{: .text-3xl }
 
 In the end, the solution was to use 
     `rodauth.csrf_token`
+.
