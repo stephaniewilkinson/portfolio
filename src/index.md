@@ -6,7 +6,7 @@ title: Stephanie Wilkinson
 subtitle: Engineering leadership
 ---
 
-Stephanie Wilkinson lives in Los Angeles and specializes in engineering leadership in the education space. Her passion is using code to solve problems for people, and she loves learning new tools and increasing impact.
+Stephanie Wilkinson lives in Oregon and specializes in product & engineering leadership in the education space. Her passion is using code to solve problems for people, and she loves learning new tools and increasing impact.
 
 &nbsp;
 
@@ -18,7 +18,7 @@ These days, you can find Stephanie directing the engineering department at the N
 
 &nbsp;
 
-Otherwise, you'll find her building Duplo trains with her daughter Andromeda, hiking in the Santa Monica mountains, or working on open source projects.
+Otherwise, you'll find her building Duplo trains with her daughter Andromeda, hiking in the Siskiyou mountains, or working on open source projects.
 
 &nbsp;
 
