@@ -3,7 +3,7 @@ layout: post
 title:  "Conrex"
 date:   2023-01-19
 category: Nonprofit
-image_url: './images/conrex.png'
+image_url: './images/conrex.webp'
 tags:
 - elixir
 - GIS
@@ -19,7 +19,7 @@ Most map-based apps calculate the distance from a central point outward. That’
 &nbsp;
 
 
-[Conrex](https://github.com/NAISorg/conrex) uses a convergent isochrone to calculate real traffic and topographic conditions. An implementation of [Paul Bourke's CONREC algorithm in Elixir](http://paulbourke.net/papers/conrec/), [Conrex](https://github.com/NAISorg/conrex) is now available to the open source community.    
+[Conrex](https://github.com/NAISorg/conrex) uses a convergent isochrone to calculate real traffic and topographic conditions. An implementation of [Paul Bourke's CONREC algorithm in Elixir](http://paulbourke.net/papers/conrec/), [Conrex](https://github.com/NAISorg/conrex) is now available to the open source community.
 
 &nbsp;
 

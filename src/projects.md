@@ -14,11 +14,11 @@ title: Projects
           <div class="flex flex-1 flex-col justify-between bg-white p-6">
             <div class="flex-1">
               <p class="text-sm font-medium text-indigo-600">
-                <a href="#" class="hover:underline">
+                <a href="<%= relative_url project.relative_url %>">
                   <%= project.data.category %>
                 </a>
               </p>
-              <a href="#" class="mt-2 block">
+              <a href="<%= relative_url project.relative_url %>" class="mt-2 block">
                 <p class="text-3xl font-semibold text-gray-900">
                   <%= project.data.title %>
                 </p>
