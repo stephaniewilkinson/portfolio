@@ -10,19 +10,19 @@ tags:
 - GIS
 - emberjs
 ---
-### What is [NAIS Market View](https://marketview.nais.org)? 
+### What is [NAIS Market View](https://marketview.nais.org)?
 
-Market View is a user-friendly tool designed to help improve your school’s yearly recruitment strategy based on the latest national demographic data combined with data from hundreds of independent schools each year in NAIS DASL. 
-
-&nbsp;
-
-
-Market View provides a contextualized view of your school’s market so you can make informed decisions and identify prospective families who are more likely to enroll in a school like yours. Gain a deeper understanding of your school community, focus your recruitment efforts, and ultimately save on the time and resources that go to waste each year in catch-all approaches to enrolling new students. 
+Market View is a user-friendly tool designed to help improve your school’s yearly recruitment strategy based on the latest national demographic data combined with data from hundreds of independent schools each year in NAIS DASL.
 
 &nbsp;
 
 
-### What’s New in [Market View 6](https://marketview.nais.org)? 
+Market View provides a contextualized view of your school’s market so you can make informed decisions and identify prospective families who are more likely to enroll in a school like yours. Gain a deeper understanding of your school community, focus your recruitment efforts, and ultimately save on the time and resources that go to waste each year in catch-all approaches to enrolling new students.
+
+&nbsp;
+
+
+### What’s New in [Market View 6](https://marketview.nais.org)?
 
 Market View 6 empowers schools to upload and analyze their enrollment data. See where you are performing well and where your enrollment strategy could expand to reach more of your target families.
 
@@ -33,7 +33,14 @@ Integrate your data: upload your school’s applicant and enrollment data direct
 &nbsp;
 
 
-Customize your experience: nationwide trends, demographic data, and your school’s enrollment data together is the ideal foundation for sustainable strategic decision-making. For example, it is commonly understood that 6th and 9th grade are key entry points for enrollment. But does that trend apply to your school and if so, what are the hyperlocal factors influencing the trend at your school?  
+Customize your experience: nationwide trends, demographic data, and your school’s enrollment data together is the ideal foundation for sustainable strategic decision-making. For example, it is commonly understood that 6th and 9th grade are key entry points for enrollment. But does that trend apply to your school and if so, what are the hyperlocal factors influencing the trend at your school?
+
+&nbsp;
+
+
+
+![Market View](/images/mv-masthead-group.png "NAIS Market View Screenshots")
+&nbsp;
 
 &nbsp;
 

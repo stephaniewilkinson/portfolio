@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="flow-root grid grid-cols-1 gap-y-16 lg:grid-cols-2 md:mx-auto max-w-xl lg:max-w-7xl">
-  <div class="md:my-8 p-4 max-w-2xl lg:order-first lg:row-span-2">
+<div class="flex gap-y-16 md:mx-auto max-w-5xl xl:max-w-7xl">
+  <div class="md:my-8 md:w-2/3 w-full p-4">
     <h1 class="text-5xl mb-8 md:mt-8 font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
       <%= resource.data.title %>
     </h1>
@@ -11,8 +11,8 @@ layout: default
       <%= yield %>
     </span>
   </div>
-  <div class="lg:pl-20">
-    <div class="lg:mt-16 max-w-xs px-4 lg:max-w-none">
+  <div class="lg:pl-20 w-1/3 mt-24 collapse md:visible">
+    <div class="">
       <img alt="" sizes="(min-width: 1024px) 32rem, 20rem" src="<%= if resource.data.image_url then relative_url resource.data.image_url else relative_url 'images/headshot.jpg' end %>" decoding="async" data-nimg="1" class="aspect-square rounded-3xl object-cover" loading="lazy" style="color: transparent;" width="800" height="800">
     </div>
     <div class="mt-16">
