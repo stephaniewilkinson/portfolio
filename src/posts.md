@@ -4,9 +4,9 @@ title: Blog
 ---
 
 <% collections.posts.resources.each do |post| %>
-  <div class="mt-16 space-y-20">
-    <article class="mb-16 relative flex flex-col gap-32 lg:flex-row">
-      <div class="relative lg:aspect-square lg:w-80 lg:shrink-0">
+  <div class="mt-16 p-16 space-y-20 rounded-lg bg-white">
+    <article class="relative flex flex-col gap-8 lg:gap-32 lg:flex-row">
+      <div class="relative aspect-square w-24 lg:w-40 shrink-0">
         <img src="<%= relative_url post.data.image_url%>" alt="" class="absolute inset-0 h-full w-full rounded-2xl object-cover">
       </div>
       <div class="relative max-w-full">
@@ -21,7 +21,10 @@ title: Blog
           <p class="mt-4 text-gray-600 max-w-xl">
             <%= post.data.blurb %>
           </p>
-          </a>
+          <p class="mt-4 underline text-gray-600 max-w-xl">
+            Read more &raquo;
+          </p>
+        </a>
       </div>
     </article>
   </div>
