@@ -4,7 +4,7 @@ title: Blog
 ---
 
 <% collections.posts.resources.each do |post| %>
-  <div class="mt-16 p-16 space-y-20 rounded-lg bg-white">
+  <div class="mt-16 p-12 space-y-24 rounded-lg bg-neutral-400/20">
     <article class="relative flex flex-col gap-8 lg:gap-32 lg:flex-row">
       <div class="relative aspect-square w-24 lg:w-40 shrink-0">
         <img src="<%= relative_url post.data.image_url%>" alt="" class="absolute inset-0 h-full w-full rounded-2xl object-cover">
