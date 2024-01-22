@@ -22,4 +22,4 @@ Otherwise, you'll find her building Duplo trains with her daughter Andromeda, hi
 
 &nbsp;
 
-Read more of __[her writing](https://stephanieawilkinson.com/posts)__, and explore __[her projects](https://stephanieawilkinson.com/projects)__ or __[presentations](https://stephanieawilkinson.com/presentations)__.
+Read more of <ins>[her writing](https://stephanieawilkinson.com/posts)</ins>, and explore <ins>[her projects](https://stephanieawilkinson.com/projects)</ins> or <ins>[presentations](https://stephanieawilkinson.com/presentations)</ins>.
