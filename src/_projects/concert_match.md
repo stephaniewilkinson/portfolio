@@ -4,7 +4,7 @@ title:  "Concert Match"
 date:   2000-01-19
 category: Open source
 image_url: './images/concert_match.jpg'
-blurb: "A playable, in-browser version of the strategy game Abalone."
+blurb: "Easily map upcoming concerts for your most listened-to artists on Spotify"
 tags:
 - javascript
 - angular
