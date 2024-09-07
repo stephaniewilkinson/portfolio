@@ -1,26 +1,19 @@
-<div class="relative sm:px-8 lg:px-12">
-    <div class="relative flex md:gap-4">
-      <div class="flex flex-1 justify-center">
-        <nav class="pointer-events-auto ">
-          <ul class="flex rounded-full bg-white/80 px-1.5 md:px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-            <li>
-              <a class="relative block px-1.5 md:px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="<%= relative_url '/' %>">Home</a>
-            </li>
-            <li>
-              <a class="relative block px-1.5 md:px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="<%= relative_url '/community' %>">Community</a>
-            </li>
-            <li>
-              <a class="relative block px-1.5 md:px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="<%= relative_url '/projects' %>">Portfolio</a>
-            </li>
-            <li>
-              <a class="relative block px-1.5 md:px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="<%= relative_url '/presentations' %>">Speaking</a>
-            </li>
-            <li>
-              <a class="relative block px-1.5 md:px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="<%= relative_url '/posts' %>">Blog</a>
-            </li>
-          </ul>
-        </nav>
+<nav class="">
+  <div class="mx-auto max-w-7xl">
+    <div class="relative flex h-16 justify-between">
+      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="w-fit invisible sm:visible flex flex-shrink-0 items-center">
+            <a href="/" class="">
+                <img class="h-20 w-full" src="/images/stephanie_wilkinson.svg" alt="Your Company">
+            </a>
+        </div>
+      </div>
+      <div class="sm:ml-6 text-xs md:text-lg sm:flex sm:space-x-8">
+        <a href="<%= relative_url '/projects' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Projects</a>
+        <a href="<%= relative_url '/community' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Community Work</a>
+        <a href="<%= relative_url '/presentations' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Presentations</a>
+        <a href="<%= relative_url '/posts' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Blog</a>
       </div>
     </div>
   </div>
-</div>
+</nav>

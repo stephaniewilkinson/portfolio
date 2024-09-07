@@ -1,20 +1,33 @@
+@font-face {
+    font-family: "Petit Cochon";
+    src: url("../fonts/Petit_Cochon.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Petit Cochon";
+}
 h1 {
-  font-size: 4rem!important;
+    font-size: 4rem !important;
 }
 h2 {
-  font-size: 3em!important;
+    font-size: 3em !important;
 }
 h3 {
-  font-size: 2em!important;
+    font-size: 2em !important;
 }
 h4 {
-  font-size: 2em!important;
+    font-size: 2em !important;
 }
 
 a {
-  cursor:pointer!important;
+    cursor: pointer !important;
 }
 
 a:hover {
-  text-decoration: underline!important;
+    text-decoration: underline !important;
 }

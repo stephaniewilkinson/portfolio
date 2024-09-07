@@ -2,8 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 
 layout: page
-title: Stephanie Wilkinson
-subtitle: Engineering leadership
+title: Engineering leadership
+subtitle:
 ---
 
 Stephanie Wilkinson lives in Oregon and specializes in product & engineering leadership in the education space. Her passion is using code to solve problems for people, and she loves learning new tools and increasing impact.
