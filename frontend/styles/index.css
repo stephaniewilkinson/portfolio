@@ -1,13 +1,17 @@
+body {
+    font-family: "Lora";
+}
+
 h1 {
+    font-family: "Lato";
     font-size: 4rem !important;
 }
 h2 {
+    font-family: "Lato";
     font-size: 3em !important;
 }
 h3 {
-    font-size: 2em !important;
-}
-h4 {
+    font-family: "Lato";
     font-size: 2em !important;
 }
 

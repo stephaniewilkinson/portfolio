@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div class="dark:bg-transparent md:mt-16 mt-4 px-8 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 mx-auto max-w-2xl lg:max-w-7xl">
+<div class="dark:bg-transparent md:mt-16 mt-4 px-8 grid grid-cols-1 gap-y-16 md:grid-cols-2 lg:gap-y-12 mx-auto max-w-2xl lg:max-w-7xl">
   <div class="">
-    <h2 class="text-zinc-800 dark:text-zinc-100">
+    <h2 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-6xl">
       <%= resource.data.title %>
     </h2>
     <p class="text-zinc-800 tracking-tight dark:text-zinc-100 text-3xl mb-8">
@@ -13,14 +13,14 @@ layout: default
       <%= yield %>
     </span>
   </div>
-  <div class="lg:pl-20">
-    <div class="mb-12 max-w-2xl px-2.5 lg:max-w-none">
-      <img alt="" sizes="(min-width: 1024px) 32rem, 20rem" src="<%= relative_url '/images/headshot.jpg' %>" decoding="async" data-nimg="1" class="aspect-square rotate-3 rounded-3xl object-cover" loading="lazy" style="color: transparent;">
+  <div class="md:pl-20">
+    <div class="mb-12 px-2.5">
+      <img alt="" sizes="32rem, 20rem" src="<%= relative_url '/images/headshot.jpg' %>" decoding="async" data-nimg="1" class="aspect-square rotate-3 rounded-3xl object-cover" loading="lazy" style="color: transparent;">
     </div>
     <%= render "social_media" %>
   </div>
 </div>
-<div class="place-content-center flex flex-row md:gap-x-4 lg:gap-x-8 my-24">
+<div class="collapse md:visible place-content-center flex flex-row gap-x-4 lg:gap-x-8 my-24">
   <a href="projects/market-view">
     <div class="hover:shadow-slate-900/90 shadow-xl relative aspect-[10/10] w-20 lg:max-w-28 xl:w-32 2xl:max-w-52  overflow-hidden rounded-xl hover:-rotate-2 rotate-2">
       <img alt="NAIS Market View" sizes="(min-width: 640px) 18rem, 11rem"  src="./images/market-view.png" decoding="async" data-nimg="1" class="drop-shadow-lg absolute inset-0 h-full w-full" loading="lazy">
