@@ -1,6 +1,8 @@
 ---
 layout: full_width
-title: Community & volunteer work
+title: Mentorship & governance
+tagline: Giving back to the tech and education communities, and mentoring girls and women programmers.
+heading: Community & Volunteer Work
 ---
 
   <div class="relative overflow-hidden rounded-xl bg-indigo-500 py-24 px-8 shadow-2xl lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-16">
@@ -40,4 +42,3 @@ title: Community & volunteer work
       </blockquote>
     </div>
   </div>
-

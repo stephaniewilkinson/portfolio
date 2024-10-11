@@ -1,6 +1,8 @@
 ---
 layout: full_width
 title: Blog
+tagline: Sharing notes on my work and presentations.
+heading: Writing
 ---
 
 <% collections.posts.resources.each do |post| %>

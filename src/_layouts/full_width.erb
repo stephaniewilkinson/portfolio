@@ -2,9 +2,15 @@
 layout: default
 ---
 <div class="mx-auto max-w-2xl lg:max-w-7xl">
-  <h2 class="m-4 tracking-tight text-zinc-800 dark:text-zinc-100">
-    <%= resource.data.title %>
-  </h2>
+    <h2 class="mt-8 sm:mt-0 mb-2 font-medium text-gray-600 uppercase">
+       <%= resource.data.title %>
+    </h2>
+    <h1 class="mb-2 font-heading sm:text-3xl md:text-4xl lg:text-5xl text-2xl">
+       <%= resource.data.heading %>
+    </h1>
+  <p class="md:mb-11 lg:text-xl lg:leading-loose xl:mb-12 xl:text-2xl xl:leading-loose mb-10 leading-loose">
+    <%= resource.data.tagline %>
+  </p>
   <div class="m-4 dark:text-slate-400 text-base text-zinc-600 space-y-4">
     <%= yield %>
   </div>
