@@ -1,6 +1,8 @@
 ---
 layout: full_width
 title: Speaking
+tagline: Empowering educators with data, insights and innovation to shape the future of education.
+heading: Featured Presentations
 ---
 
 <% collections.presentations.resources.sort_by { _1.data.date }.reverse_each do |presentation| %>

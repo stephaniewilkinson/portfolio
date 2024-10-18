@@ -4,8 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Portfolio, posts and projects
+title: Stephanie Wilkinson
 tagline: Portfolio, posts and projects
 email:
 description: >-
-  Stephanie Wilkinson leads engineering teams to create game-changing apps for schools.
+  Leading engineering teams to create game-changing apps for schools.
