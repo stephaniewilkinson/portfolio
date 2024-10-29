@@ -5,10 +5,8 @@ tagline: Download a pdf version <a href="#">here</a>.
 heading: Resume
 ---
 
-  <main class="hyphens-manual">
-    <!-- Page -->
+  <main class="hyphens-manual mb-8">
     <div class="
-          p-6
           mx-auto
           page
           print:max-w-letter
@@ -46,18 +44,18 @@ heading: Resume
 
       <!-- Contact / Links -->
       <section class="mb-10 first:mt-0" id="contact">
-        <h2 class="mb-2 md:mb-0 font-bold tracking-widest text-sm2 text-[#742057]">CONTACT</h2>
+        <h2 class="mb-4 font-bold tracking-widest text-sm2 text-[#742057]">CONTACT</h2>
 
         <!-- Contact Items -->
         <ul class="print:flex-row flex flex-wrap flex-col sm:flex-row justify-between gap-2 list-inside pr-7">
           <!-- Email -->
-          <li class="mt-1.5 leading-normal text-gray-700 text-md">
+          <li class="leading-normal text-gray-700 text-md">
               <i class="far fa-envelope text-purple-900"></i>
               wilkinson.stephanie.a@gmail.com
           </li>
           <!-- End Email -->
           <!-- LinkedIn -->
-          <li class="mt-1.5 leading-normal text-gray-700 text-md">
+          <li class="leading-normal text-gray-700 text-md">
             <a href="https://www.linkedin.com/in/stephanieawilkinson/" class="group" target="_blank"
               rel="noopener noreferrer">
               <i class="fab fa-linkedin text-purple-900"></i>
@@ -112,17 +110,16 @@ heading: Resume
           </li>
           <!-- End website -->
         </ul>
+      </section>
 
- </section>
 <!-- End Contact / Links -->
 
       <!-- Grid 2 1 -->
-      <div class="">
         <!-- Grid Items Span 2 Larger -->
         <section class="print:full-width col-span-3 md:col-span-2 mt-8 first:mt-0">
           <!-- Profile -->
           <section class="my-6 first:mt-0" id="profile">
-            <h2 class="mb-0 font-bold tracking-widest text-sm2 text-[#742057] ">
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-[#742057] ">
               PROFILE
             </h2>
 
@@ -135,16 +132,15 @@ heading: Resume
               </p>
               <p class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-normal">
                 <span class="-ml-2 select-none text-gray-600">›</span>
-                Remote from Southern Oregon.
+                10 years of engineering management experience.
               </p>
               <p class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-normal">
                 <span class="-ml-2 select-none text-gray-600">›</span>
-                Available Time Zones:
-                US & Canada
+                Available to work remotely in US & Canada time zones.
               </p>
               <p class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-normal">
                 <span class="-ml-2 select-none text-gray-600">›</span>
-                Seeking fully remote permanent role on async team.
+                15 years of programming experience.
               </p>
             </section>
           </section>
@@ -218,7 +214,7 @@ heading: Resume
                 Engineering Manager
                 </span>
                 <span id="work-date-location" class="pl-1  text-gray-700 my-1">
-                | June 2015 - Dec 2018
+                | June 2014 - Dec 2018
                 </span>
                 <p id="company-name" class="text-gray-550 text-sm font-light">California Association of Independent Schools, a nonprofit serving schools in California.</p>
                 </header>
@@ -243,7 +239,7 @@ heading: Resume
                 Software Engineer
                 </span>
                 <span id="work-date-location" class="pl-1  text-gray-700 my-1">
-                | June 2013 - June 2015
+                | June 2013 - June 2014
                 </span>
                 <p id="company-name" class="text-gray-550 text-sm font-light">California Association of Independent Schools, a nonprofit serving schools in California.</p>
                 </header>
@@ -299,7 +295,7 @@ heading: Resume
           <hr>
 
           <!-- Volunteer Experience Section -->
-          <section class="col-span-3 mt-6 first:mt-0" id="education">
+          <section class="col-span-3 my-6 first:mt-0" id="education">
               <h2 class="mb-4 font-bold tracking-widest text-sm2 text-[#742057]">GOVERNANCE & VOLUNTEERING</h2>
 
 
@@ -341,8 +337,28 @@ heading: Resume
                      <ul id="work-description-bullets" class="">
                      <li class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-relaxed">
                      <span class="-ml-2 select-none text-gray-600">›</span>
-                     <strong>Board Contribution. </strong>
-                     Served on Committee on Trustees, and Committee on Head Evaluation.
+                     <strong>Leadership. </strong>
+                     Founded the only weekly Ruby programming group. Led weekly meetups, organized presentations, Capture the Flag events, and more.
+                     </li>
+                     </ul>
+                 </section>
+
+                 <section class="mb-4">
+                     <header class="mb-2">
+                     <span id="job-title" class="text-lg font-semibold text-gray-700">
+                     Coach
+                     </span>
+                     <span id="work-date-location" class="pl-1  text-gray-700 my-1">
+                   | Nov 2014 - Dec 2017
+                     </span>
+
+                     <p id="company-name" class="text-gray-550 text-sm font-light">RailsGirls</p>
+                     </header>
+                     <ul id="work-description-bullets" class="">
+                     <li class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-relaxed">
+                     <span class="-ml-2 select-none text-gray-600">›</span>
+                     <strong>Volunteering. </strong>
+                     Coached girls, women, and nonbinary aspiring coders for several intensive weekend workshops.
                      </li>
                      </ul>
                  </section>
@@ -350,373 +366,40 @@ heading: Resume
           </section>
           <!-- Volunteer Experience Section -->
 
-          <!-- Experience Section -->
-          <section class="col-span-3 mt-6 first:mt-0" id="experience">
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-purple-[#742057]">Professional Certification &
-              Achievements</h2>
-
-            <!-- Work 1 -->
-            <section class="mb-4.5">
-              <ul id="work-description-bullets" class="">
-                <li class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-normal">
-                  <a href="https://www.credly.com/badges/f55dc12c-5cc5-4466-b7d4-856e4d4ec857/public_url" class="group"
-                    target="_blank" rel="noopener noreferrer">
-                    <span class="-ml-2 select-none text-gray-600">›</span>
-                    AWS Solutions Architect Associate Certification
-                    <span class="
-                          inline-block
-                          text-gray-550
-                          print:text-black
-                          font-normal
-                          group-hover:text-gray-700
-                          transition
-                          duration-100
-                          ease-in
-                        ">↗</span>
-                  </a>
-                </li>
-                <li class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-normal">
-                  <a href="https://www.credly.com/badges/cf58de7c-d52f-4fc0-b31d-3135edd50b79/public_url" class="group"
-                    target="_blank" rel="noopener noreferrer">
-                    <span class="-ml-2 select-none text-gray-600">›</span>
-                    AWS Developer Associate Certification
-                    <span class="
-                          inline-block
-                          text-gray-550
-                          print:text-black
-                          font-normal
-                          group-hover:text-gray-700
-                          transition
-                          duration-100
-                          ease-in
-                        ">↗</span>
-                  </a>
-                </li>
-                <li class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-normal">
-                  <a href="https://bryantdesigns.github.io/hackathon/about.html" class="group" target="_blank"
-                    rel="noopener noreferrer">
-                    <span class="-ml-2 select-none text-gray-600">›</span>
-                    Codecademy Hackathon Runner Up - Team Xcessibility
-                    <span class="
-                          inline-block
-                          text-gray-550
-                          print:text-black
-                          font-normal
-                          group-hover:text-gray-700
-                          transition
-                          duration-100
-                          ease-in
-                        ">↗</span>
-                  </a>
-                </li>
-              </ul>
-            </section>
-            <!-- End Work 1 -->
-          </section>
-          <!-- End Experience Section -->
         </section>
         <!-- End Grid Items Span 2 Larger -->
+        <hr>
 
-        <!-- Column 2 (Right Side) Smaller -->
-        <section class="print:col-span-1 col-span-3 md:col-span-1">
-          <!-- Skills Section -->
-          <section class="col-span-1 mt-8 first:mt-0" id="skills">
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-[#742057]">SKILLS</h2>
-            <!-- Programming Languages -->
-            <section class="mb-1.5" id="programming-languages">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">Programming & Languages</h3>
-              </header>
-              <div class="my-2.5 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    TypeScript
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    JavaScript (ES6+)
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Node
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    GraphQL
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    SQL
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    HTML
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    CSS/Sass
-                  </li>
-                  <!-- <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      Liquid (Shopify)
-                    </li> -->
-                </ul>
-              </div>
-            </section>
-            <!-- End Programming Languages -->
-
-            <!-- Libraries & Frameworks -->
-            <section class="mb-1.5" id="libraries-frameworks">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">Libraries & Frameworks</h3>
-              </header>
-              <div class="my-2.5 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    React
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Next.js
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Redux
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    GSAP
-                  </li>
-                  <!-- <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      Styled Components (CSS-in-JS)
-                    </li> -->
-
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Express
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Apollo
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    AWS Serverless
-                  </li>
-                  <!-- <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      AWS Serverless Application Model (SAM)
-                    </li> -->
-                </ul>
-              </div>
-            </section>
-            <!-- End Libraries & Frameworks -->
-            <!-- Test Runners -->
-            <section class="mb-1.5" id="test-runners-libraries">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">Test Runners & Libraries</h3>
-              </header>
-              <div class="my-2.5 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Jest
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    React-Scripts
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Puppeteer
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <!-- End Test Runners -->
-            <!-- Tools | Platforms | Services -->
-            <section class="mb-1.5" id="tools-services">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">Tools | Services | Database</h3>
-              </header>
-              <div class="my-2.5 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Git / Bash / Shells
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Eslint
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    CI / CD
-                  </li>
-
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    GitLab
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Husky - Git Hooks
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Docker
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    AWS
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    PostgreSQL
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    DynamoDB
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <!-- End Tools | Platforms | Services -->
-
-            <!-- Related Skills -->
-            <section class="mb-1.5" id="related-skills">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">Related Skills</h3>
-              </header>
-              <div class="my-2.5 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Agile (Scrum)
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    SEO / Meta
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Accessbility (CWAG)
-                  </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Jira / Atlassian
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <!-- End Related Skills -->
-          </section>
-          <!-- End Skills Section -->
-
-          <!-- Projects Section -->
-          <section class="mt-8 first:mt-0" id="projects">
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-[#742057]">TECHNICAL PROJECTS</h2>
-
-            <!-- Project 1 -->
-            <section class="mb-4.5">
-              <header>
-                <h3 class="text-sm font-semibold tex t-gray-700 leading-snugish">
-                  <a href="https://www.t-mobile.com/support/new-to-tmobile" class="group" target="_blank"
-                    rel="noopener noreferrer">
-                    T-Mobile New Customer Onboarding
-                    <span class="
-                          inline-block
-                          text-gray-550
-                          print:text-black
-                          font-normal
-                          group-hover:text-gray-700
-                          transition
-                          duration-100
-                          ease-in
-                        ">↗</span>
-                  </a>
-                </h3>
-                <p class="leading-normal text-sm text-gray-650">
-                  Stack: Javascript, Vue.js, Laravel
-                </p>
-                <p class="leading-normal text-sm text-gray-650">
-                  <i>Finished</i>
-                </p>
-              </header>
-              <div class="mt-2.1 text-xs text-gray-700 leading-normal">
-                <p>
-                  <span class="font-semibold">Description:</span>
-                  T-Mobile onboarding experience for new customers and Sprint customers after merger.
-                </p>
-                <p>
-                  <span class="font-semibold">Market Need:</span>
-                  Large churn from Sprint customers migrating to T-Mobile.
-                </p>
-                <p>
-                  <span class="font-semibold">Solves:</span>
-                  Integrates the T-Mobile Un-Carrier campaign, showcases benefits, and educates customers
-                </p>
-                <span class="font-semibold">Features: </span>
-
-                <br />
-                <ul class="list-inside">
-                  <li class="ml-1.5">
-                    <span class="-ml-1.5 select-none text-gray-600">›</span>
-                    Users can set up online account to manage T-Mobile account & see of the benefits they recieve with
-                    T-Mobile service.
-                  </li>
-                  <li class="ml-1.5">
-                    <span class="-ml-1.5 select-none text-gray-600">›</span>
-                    Helps transition customers migrating from Sprint.
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <!-- End Project 1 -->
-          </section>
-          <!-- End Projects Section -->
 
           <!-- Education Section -->
           <section class="col-span-3 mt-8 first:mt-0" id="education">
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-[#742057]">EDUCATION</h2>
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-[#742057]">EDUCATION</h2>
 
             <!-- Education 1 -->
-            <section class="mb-4.5">
+            <section class="pb-4">
               <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">University Of Massachusetts</h3>
-                <p class="leading-normal text-sm text-gray-650">Amherst, MA</p>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">General Assembly, Los Angeles</h3>
               </header>
               <p class="mt-2.1 text-sm text-gray-800 leading-normal">
-                Pursued Bachelor’s of Science in Mathematics | Commonwealth Honors
+                Web Development Immersive
               </p>
               <p class="mt-0.5 text-xs text-gray-600 leading-normal">
-                <i>*Incomplete senior year: medical leave of absence</i>.<br />
-                Topics in advanced multivariate & vector calculus, linear algebra, statistics,
-                set theory, physics, MATLAB
+                Ruby on Rails, Javascript and Angular.js.
               </p>
             </section>
-            <!-- End Education 1 -->
-
-            <!-- Education 2 -->
-            <!-- <section class="mb-4.5">
+            <section class="pb-4">
               <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">Greenfield Community College</h3>
-                <p class="leading-normal text-sm text-gray-650">Greenfield, MA</p>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">University Of California, Riverside</h3>
               </header>
-              <p class="mt-2.1 text-sm text-gray-800 leading-normal">Associate's of Liberal Arts | Cum Laude</p>
-              <p class="mt-0.5 text-xs text-gray-600 leading-normal">
-                Academic tutor of mathematics and sciences Honorary Phi Theta Kappa Honor Society member
-                Honors-to-Honors Scholarship
+              <p class="mt-2.1 text-sm text-gray-800 leading-normal">
+                Bachelor of Arts | English
               </p>
-            </section> -->
-            <!-- End Education 2 -->
+              <p class="mt-0.5 text-xs text-gray-600 leading-normal">
+                Linear algebra, calculus, computer science (C++). Full scholarship & honors.
+              </p>
+            </section>
           </section>
-          <!-- End Education Section -->
-        </section>
-        <!-- End Column 2 Smaller -->
-      </div>
-      <!-- end Grid 2 1 -->
 
-      <!-- Footer Build Info -->
-      <footer class="print:pb-0 pb-5">
-        <section id="resume-info" class="flex flex-row mt-16 print:mt-0">
-          <h2 class="text-xs font-hairline text-gray-550">
-            For fun this resume was built with HTML and Tailwind CSS
-          </h2>
-          <a href="https://github.com/toreylittlefield/my-custom-tailwind-resume"
-            class="group hover:text-gray-700 border-l border-gray-500 ml-3 pl-3 text-gray-550 text-xs font-hairline">
-            See the GitHub Repo
-            <span class="
-                  inline-block
-                  text-gray-550
-                  print:text-black
-                  font-normal
-                  group-hover:text-gray-700
-                  transition
-                  duration-100
-                  ease-in
-                ">↗</span>
-          </a>
-        </section>
-      </footer>
-      <!-- End Footer Build Info -->
     </div>
-    <!-- end Page -->
 
   </main>
