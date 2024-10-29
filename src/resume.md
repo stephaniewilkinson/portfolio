@@ -6,6 +6,13 @@ heading: Resume
 ---
 
   <main class="hyphens-manual mb-8">
+      <button onClick="window.print()" class="mb-4 mr-4 print:hidden bg-[#742057] text-white font-bold py-2 px-4 rounded inline-flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
+          </svg>
+        <span>&nbsp; Print</span>
+      </button>
+
     <div class="
           mx-auto
           page
@@ -35,7 +42,7 @@ heading: Resume
         <!-- Industry Title -->
         <h2 id="industry-title"
           class="print:text-2xl text-[#742057] font-sans self-center md:text-3xl text-2xl font-hairline pb-px">
-          <code class='print:text-3xl text-[#742057]] font-sans self-center md:text-3xl text-2xl font-hairline pb-px'
+          <code class='print:text-3xl text-[#742057] font-sans self-center md:text-3xl text-2xl font-hairline pb-px'
             role="heading" aria-label="Software Developer">Engineering Leadership</code>
         </h2>
         <!-- End Industry Title -->
@@ -47,11 +54,23 @@ heading: Resume
         <h2 class="mb-4 font-bold tracking-widest text-sm2 text-[#742057]">CONTACT</h2>
 
         <!-- Contact Items -->
-        <ul class="print:flex-row flex flex-wrap flex-col sm:flex-row justify-between gap-2 list-inside pr-7">
+        <ul class="mb-0 grid grid-cols-2">
           <!-- Email -->
           <li class="leading-normal text-gray-700 text-md">
-              <i class="far fa-envelope text-purple-900"></i>
+            <a href="mailto:wilkinson.stephanie.a@gmail.com" class="group" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github text-[#483248]"></i>
               wilkinson.stephanie.a@gmail.com
+              <span class="
+                    inline-block
+                    text-gray-550
+                    print:text-black
+                    font-normal
+                    group-hover:text-gray-700
+                    transition
+                    duration-100
+                    ease-in
+                  ">↗</span>
+            </a>
           </li>
           <!-- End Email -->
           <!-- LinkedIn -->
@@ -93,7 +112,7 @@ heading: Resume
           <!-- End Github -->
           <!-- website -->
           <li class="leading-normal text-gray-700 text-md">
-            <a href="https://www.stephanieawilkinson.com" class="group" target="_blank" rel="noopener noreferrer">
+            <a href="https://stephanieawilkinson.com" class="group" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-github text-[#483248]"></i>
               stephanieawilkinson.com
               <span class="
@@ -123,7 +142,7 @@ heading: Resume
               PROFILE
             </h2>
 
-            <section class="mb-0 grid grid-cols-2 ">
+            <section class="mb-0 grid grid-cols-2">
               <!-- <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
               </h3> -->
               <p class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-normal">
@@ -269,7 +288,7 @@ heading: Resume
                 <span id="work-date-location" class="pl-1  text-gray-700 my-1">
                 | May 2014 - Sept 2014
                 </span>
-                <p id="company-name" class="text-gray-550 text-sm font-light">Pivotal Labs, agile software consultancy.</p>
+                <p id="company-name" class="text-gray-550 text-sm font-light">Pivotal Labs, an agile software consultancy.</p>
                 </header>
                 <ul id="work-description-bullets" class="">
                     <li class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-relaxed">
