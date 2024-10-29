@@ -56,9 +56,9 @@ heading: Resume
         <h2 class="mb-4 font-bold tracking-widest  text-[#742057]">CONTACT</h2>
 
         <!-- Contact Items -->
-        <ul class="mb-0 grid grid-cols-2">
+        <ul class="grid grid-cols-2">
           <!-- Email -->
-          <li class="text-xs md:text-sm text-gray-700">
+          <li class="text-xs md:text-sm text-clip text-gray-700 leading-normal">
             <a href="mailto:wilkinson.stephanie.a@gmail.com" class="group" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-github text-[#483248]"></i>
               wilkinson.stephanie.a@gmail.com
@@ -66,7 +66,7 @@ heading: Resume
           </li>
           <!-- End Email -->
           <!-- LinkedIn -->
-          <li class="text-xs md:text-sm text-gray-700">
+          <li class="text-xs md:text-sm text-clip text-gray-700 leading-normal">
             <a href="https://www.linkedin.com/in/stephanieawilkinson/" class="group" target="_blank"
               rel="noopener noreferrer">
               <i class="fab fa-linkedin text-purple-900"></i>
@@ -75,7 +75,7 @@ heading: Resume
           </li>
           <!-- End LinkedIn -->
           <!-- Github -->
-          <li class="text-xs md:text-sm text-gray-700">
+          <li class="text-xs md:text-sm text-clip text-gray-700 leading-normal">
             <a href="https://www.github.com/stephaniewilkinson" class="group" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-github text-[#483248]"></i>
               github.com/stephaniewilkinson
@@ -83,7 +83,7 @@ heading: Resume
           </li>
           <!-- End Github -->
           <!-- website -->
-          <li class="text-xs md:text-sm text-gray-700">
+          <li class="text-xs md:text-sm text-clip text-gray-700 leading-normal">
             <a href="https://stephanieawilkinson.com" class="group" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-github text-[#483248]"></i>
               stephanieawilkinson.com
@@ -100,7 +100,7 @@ heading: Resume
               PROFILE
             </h2>
 
-            <section class="mb-0 grid grid-cols-2">
+            <section class="grid grid-cols-2">
               <p class="mt-2.1 ml-1.5 text-xs md:text-sm text-gray-700 leading-normal">
                 <span class="-ml-2 select-none text-gray-600">›</span>
                   Authorized to work in the US and Canada.
