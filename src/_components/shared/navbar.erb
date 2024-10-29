@@ -1,14 +1,42 @@
-<nav class="sm:mb-16 print:hidden">
-  <div class="mx-auto max-w-7xl">
-      <div class="sm:relative sm:flex h-16 justify-between">
-          <div class="flex text-xl sm:text-2xl lg:text-4xl flex-1 sm:items-stretch sm:justify-start tracking-tight text-zinc-800 dark:text-zinc-100">
+<nav class="print:hidden mb-8">
+    <div class="relative flex h-16 justify-between">
+        <div class="flex text-2xl md:text-3xl lg:text-5xl flex-1 tracking-tight text-zinc-800 dark:text-zinc-100">
             <a href="/" class="">Stephanie Wilkinson</a>
         </div>
-        <div class="text-xs sm:text-lg sm:space-x-4 lg:mt-1">
-            <a href="<%= relative_url '/projects' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-2xl text-gray-500 hover:border-gray-300 hover:text-gray-700">Work</a>
-            <a href="<%= relative_url '/community' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-2xl text-gray-500 hover:border-gray-300 hover:text-gray-700">Community</a>
-            <a href="<%= relative_url '/presentations' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-2xl text-gray-500 hover:border-gray-300 hover:text-gray-700">Presentations</a>
-            <a href="<%= relative_url '/posts' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-2xl text-gray-500 hover:border-gray-300 hover:text-gray-700">Blog</a>
-      </div>
+        <div class="show md:collapse">
+            <div class="inline-block text-left dropdown">
+                <span class="rounded-md shadow-sm">
+                    <button class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800"
+                    type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                </span>
+                <div class="hidden dropdown-menu">
+                    <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                        <div class="py-1">
+                            <a href="<%= relative_url '/projects' %>" class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"  role="menuitem" >Work</a>
+                            <a href="<%= relative_url '/community' %>" class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"  role="menuitem" >Community</a>
+                            <a href="<%= relative_url '/presentations' %>" class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left" role="menuitem" >Presentations</a>
+                            <a href="<%= relative_url '/posts' %>" class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left" role="menuitem" >Blog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="md:visible collapse text-xs md:text-lg sm:space-x-4 lg:mt-1">
+            <a href="<%= relative_url '/projects' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 lg:text-2xl text-gray-500 hover:border-gray-300 hover:text-gray-700">Work</a>
+            <a href="<%= relative_url '/community' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 lg:text-2xl text-gray-500 hover:border-gray-300 hover:text-gray-700">Community</a>
+            <a href="<%= relative_url '/presentations' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 lg:text-2xl text-gray-500 hover:border-gray-300 hover:text-gray-700">Presentations</a>
+            <a href="<%= relative_url '/posts' %>" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 lg:text-2xl text-gray-500 hover:border-gray-300 hover:text-gray-700">Blog</a>
+        </div>
     </div>
 </nav>
+
+<style>
+    .dropdown:focus-within .dropdown-menu {
+    /* @apply block; */
+    display:block;
+    }
+</style>
