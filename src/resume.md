@@ -59,7 +59,7 @@ heading: Resume
           <!-- Email -->
           <li class="text-xs md:text-sm text-clip text-gray-700 leading-normal">
             <a href="mailto:wilkinson.stephanie.a@gmail.com" class="group" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github text-[#483248]"></i>
+              <i class="fa fa-envelope mr-2 text-[#742057]"></i>
               wilkinson.stephanie.a@gmail.com
             </a>
           </li>
@@ -68,7 +68,7 @@ heading: Resume
           <li class="text-xs md:text-sm text-clip text-gray-700 leading-normal">
             <a href="https://www.linkedin.com/in/stephanieawilkinson/" class="group" target="_blank"
               rel="noopener noreferrer">
-              <i class="fab fa-linkedin text-purple-900"></i>
+              <i class="fab fa-linkedin mr-2 text-[#742057]"></i>
               linkedin.com/in/stephanieawilkinson
             </a>
           </li>
@@ -76,7 +76,7 @@ heading: Resume
           <!-- Github -->
           <li class="text-xs md:text-sm text-clip text-gray-700 leading-normal">
             <a href="https://www.github.com/stephaniewilkinson" class="group" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github text-[#483248]"></i>
+              <i class="fab fa-github mr-2 text-[#742057]"></i>
               github.com/stephaniewilkinson
             </a>
           </li>
@@ -84,7 +84,7 @@ heading: Resume
           <!-- website -->
           <li class="text-xs md:text-sm text-clip text-gray-700 leading-normal">
             <a href="https://stephanieawilkinson.com" class="group" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github text-[#483248]"></i>
+              <i class="fa fa-user mr-2 text-[#742057]"></i>
               stephanieawilkinson.com
             </a>
           </li>
