@@ -138,7 +138,7 @@ heading: Resume
                 <ul id="work-description-bullets" class="">
                     <li class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-relaxed">
                         <span class="-ml-2 select-none text-gray-600">›</span>
-                        <strong>Leadership.</strong> Managed ten staff, including managers. Implemented agile practices and ceremonies to ensure effective project delivery.
+                        <strong>Leadership.</strong> Managed ten staff, including managers. Implemented agile practices and ceremonies to ensure effective project delivery. Led two teams of staff an additional two teams of contractors, with applications in .NET, Ember.js, Elixir, and Ruby.
                     </li>
                     <li class="mt-2.1 ml-1.5 text-sm text-gray-700 leading-relaxed">
                         <span class="-ml-2 select-none text-gray-600">›</span>
